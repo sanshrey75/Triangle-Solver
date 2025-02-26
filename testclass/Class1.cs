@@ -13,31 +13,10 @@ namespace trianglecases
             int a = 5, b = 5, c = 5;
             string expected = "Equilateral triangle";
             string result = Triangle.AnalyzeTriangle(a, b, c);
-            Assert.AreEqual(result,expected);
-        }
-       
-
-        [Test]
-        public void AnalyzeTriangle_ZeroLengthSide_Case1_ReturnsInvalid()
-        {
-            int a = 0, b = 5, c = 5;
-            string expected = "Invalid Triangle - a zero has been detected";
-            string result = Triangle.AnalyzeTriangle(a, b, c);
             Assert.AreEqual(result, expected);
         }
 
         [Test]
-        public void AnalyzeTriangle_ZeroLengthSide_Case2_ReturnsInvalid()
-        {
-            int a = 5, b = 0, c = 5;
-            string expected = "Invalid Triangle - a zero has been detected";
-            string result = Triangle.AnalyzeTriangle(a, b, c);
-            Assert.AreEqual(result, expected);
-        }
-
-
-        [Test]
-
         public void AnalyzeTriangle_IsoscelesTriangle_Case1_ReturnsIsosceles()
         {
             int a = 5, b = 5, c = 3;
@@ -64,6 +43,68 @@ namespace trianglecases
             Assert.AreEqual(result, expected);
         }
 
+        [Test]
+        public void AnalyzeTriangle_ScaleneTriangle_Case1_ReturnsScalene()
+        {
+            int a = 3, b = 4, c = 5;
+            string expected = "Scalene triangle";
+            string result = Triangle.AnalyzeTriangle(a, b, c);
+            Assert.AreEqual(result, expected);
+        }
+
+        [Test]
+        public void AnalyzeTriangle_ScaleneTriangle_Case2_ReturnsScalene()
+        {
+            int a = 7, b = 9, c = 12;
+            string expected = "Scalene triangle";
+            string result = Triangle.AnalyzeTriangle(a, b, c);
+            Assert.AreEqual(result, expected);
+        }
+
+        [Test]
+        public void AnalyzeTriangle_ScaleneTriangle_Case3_ReturnsScalene()
+        {
+            int a = 8, b = 15, c = 17;
+            string expected = "Scalene triangle";
+            string result = Triangle.AnalyzeTriangle(a, b, c);
+            Assert.AreEqual(result, expected);
+        }
+
+        [Test]
+        public void AnalyzeTriangle_ScaleneTriangle_Case4_ReturnsScalene()
+        {
+            int a = 5, b = 7, c = 10;
+            string expected = "Scalene triangle";
+            string result = Triangle.AnalyzeTriangle(a, b, c);
+            Assert.AreEqual(result, expected);
+        }
+
+        [Test]
+        public void AnalyzeTriangle_ScaleneTriangle_Case5_ReturnsScalene()
+        {
+            int a = 6, b = 8, c = 10;
+            string expected = "Scalene triangle";
+            string result = Triangle.AnalyzeTriangle(a, b, c);
+            Assert.AreEqual(result, expected);
+        }
+
+        [Test]
+        public void AnalyzeTriangle_ZeroLengthSide_Case1_ReturnsInvalid()
+        {
+            int a = 0, b = 5, c = 5;
+            string expected = "Invalid Triangle - a zero has been detected";
+            string result = Triangle.AnalyzeTriangle(a, b, c);
+            Assert.AreEqual(result, expected);
+        }
+
+        [Test]
+        public void AnalyzeTriangle_ZeroLengthSide_Case2_ReturnsInvalid()
+        {
+            int a = 5, b = 0, c = 5;
+            string expected = "Invalid Triangle - a zero has been detected";
+            string result = Triangle.AnalyzeTriangle(a, b, c);
+            Assert.AreEqual(result, expected);
+        }
 
         [Test]
         public void AnalyzeTriangle_ZeroLengthSide_Case3_ReturnsInvalid()
