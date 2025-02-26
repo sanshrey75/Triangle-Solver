@@ -35,6 +35,36 @@ namespace trianglecases
             Assert.AreEqual(result, expected);
         }
 
+
+        [Test]
+
+        public void AnalyzeTriangle_IsoscelesTriangle_Case1_ReturnsIsosceles()
+        {
+            int a = 5, b = 5, c = 3;
+            string expected = "Isosceles triangle";
+            string result = Triangle.AnalyzeTriangle(a, b, c);
+            Assert.AreEqual(result, expected);
+        }
+
+        [Test]
+        public void AnalyzeTriangle_IsoscelesTriangle_Case2_ReturnsIsosceles()
+        {
+            int a = 4, b = 6, c = 6;
+            string expected = "Isosceles triangle";
+            string result = Triangle.AnalyzeTriangle(a, b, c);
+            Assert.AreEqual(result, expected);
+        }
+
+        [Test]
+        public void AnalyzeTriangle_IsoscelesTriangle_Case3_ReturnsIsosceles()
+        {
+            int a = 7, b = 10, c = 7;
+            string expected = "Isosceles triangle";
+            string result = Triangle.AnalyzeTriangle(a, b, c);
+            Assert.AreEqual(result, expected);
+        }
+
+
         [Test]
         public void AnalyzeTriangle_ZeroLengthSide_Case3_ReturnsInvalid()
         {

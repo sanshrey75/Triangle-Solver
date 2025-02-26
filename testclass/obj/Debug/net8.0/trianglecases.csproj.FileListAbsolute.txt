@@ -312,6 +312,7 @@ C:\Users\karth\Downloads\TriangleSolver\TriangleSolver\testclass\obj\Debug\net8.
 C:\Users\karth\Downloads\TriangleSolver\TriangleSolver\testclass\obj\Debug\net8.0\trianglecases.AssemblyInfoInputs.cache
 C:\Users\karth\Downloads\TriangleSolver\TriangleSolver\testclass\obj\Debug\net8.0\trianglecases.AssemblyInfo.cs
 C:\Users\karth\Downloads\TriangleSolver\TriangleSolver\testclass\obj\Debug\net8.0\trianglecases.csproj.CoreCompileInputs.cache
+C:\Users\karth\Downloads\TriangleSolver\TriangleSolver\testclass\obj\Debug\net8.0\trianglecases.sourcelink.json
 C:\Users\karth\Downloads\TriangleSolver\TriangleSolver\testclass\obj\Debug\net8.0\triangle.9857A84E.Up2Date
 C:\Users\karth\Downloads\TriangleSolver\TriangleSolver\testclass\obj\Debug\net8.0\trianglecases.dll
 C:\Users\karth\Downloads\TriangleSolver\TriangleSolver\testclass\obj\Debug\net8.0\refint\trianglecases.dll
